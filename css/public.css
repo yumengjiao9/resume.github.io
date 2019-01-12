@@ -1,0 +1,10 @@
+body{margin:0;line-height:1; font-family: "微软雅黑";font-size:12px;}
+h1,h2,h3,h4,h5,h6{margin:0;font-weight:normal;font-size:12px;}
+p,dl,dd{margin:0;padding:0;}
+ul,ol{list-style:none;margin:0;padding:0;}
+a{text-decoration:none;color:#333;}
+em,i{font-style:normal;}
+strong,b{font-weight: normal;}
+img{vertical-align:bottom;border:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{content:"";display:block;clear:both;}

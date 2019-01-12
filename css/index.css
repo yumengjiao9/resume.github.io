@@ -1,0 +1,73 @@
+.layout{width:1190px;margin:0 auto;}
+.header{height:70px;box-shadow:0 0 100px rgba(0,0,0,0.5);}
+    .hd_logo{margin-top:24px;}
+    .hd_nav{float:right;}
+    .hd_nav li{float:right;margin:28px 0 0 40px;}
+
+section{text-align:center;border-bottom:1px solid #f0f0f0;padding-bottom:30px;}
+
+.cont_img{margin:48px 0 25px 0;width:13.44%;border-radius:50%;}
+    .content h1{font:bold 48px/58px "微软雅黑";color:#000;}
+    .content p{margin:28px 0 63px 0;font:18px/32px "微软雅黑";color:#000;}
+
+.sec_hd h2{font:36px/53px "微软雅黑";color:#575757;margin-top:200px;}
+    .sec_hd p{font:15px/15px "微软雅黑";color:#878787;margin:23px 0 106px 0;}
+    .sec_skill li{float:left;width:33.33%;box-sizing:border-box;padding:0 30px;}
+    .sec_skill li h3{font:19px/19px "微软雅黑";color:#000;margin:41px 0 9px 0;}
+    .sec_skill li p{font:13px/21px "微软雅黑";color:#000;text-align:justify;}
+
+.resume{padding-bottom:115px;}
+    .res_hd h2{font:36px/51px "微软雅黑";color:#575757;margin-top:127px;}
+    .res_hd p{font:15px/15px "微软雅黑";color:#878787;margin:23px 0 83px 0;}
+    .sec_res{position:relative;float:left;text-align:left;margin-bottom:58px;}
+    .sec_res dt{float:left;width:17.73%;font:17px/36px "微软雅黑";color:#000;padding-left:21px;box-sizing:border-box;border-left:6px solid #d7b065;}
+    .sec_res dd{float:right;width:82.27%;}
+    .sec_res dd h4{margin-top:11px;font:bold 18px/18px "微软雅黑";color:#000;}
+    .sec_res dd span{margin-bottom:9px;font:14px/60px "微软雅黑";color:#575757;}
+    .sec_res dd p,li{font:16px/25px "微软雅黑";color:#878787;}
+
+.work_hd h2{font:36px/52px "微软雅黑";color:#575757;margin-top:91px;}
+    .work_hd p{font:15px/15px "微软雅黑";color:#878787;margin:24px 0 68px 0;}
+    .sec_work li{padding:0 15px;float:left;width:33%;box-sizing:border-box;}
+    .sec_work li img{width:100%;height:300px;}
+    .sec_work li p{margin:19px 0 84px 0;font:15px/15px "微软雅黑";color:#797979;}
+
+.contact{text-align:center;}
+    .sec_contact h2{font:36px/52px "微软雅黑";color:#575757;margin-top:91px;}
+    .sec_contact p{font:15px/15px "微软雅黑";color:#878787;margin:24px 0 68px 0;}
+    address i,p,em{font:italic 17px/40px "微软雅黑";color:#696969;}
+    address i{padding-left:35px;background:url("../images/phone_ico.jpg") no-repeat;}
+    address em{padding-left:41px;background:url("../images/mail_ico.jpg") no-repeat;}
+
+footer{margin-top:62px;text-align:center;}
+footer span{font:italic 23px/37px "微软雅黑";color:#d7b065;}
+
+
+@media screen and (min-width:1201px){
+    .layout{width:1190px;}
+}
+
+
+@media screen and (max-width:1200px) {
+    .layout {width: 960px;}
+
+}
+
+@media screen and (max-width:992px){
+    .layout{ width:90%;}
+    .sec_res dt{width:25%;}
+    .sec_res dd{width:75%;}
+
+}
+
+@media screen and (max-width:768px){
+    .sec_res dt{float:none;margin-bottom:20px;width:100%;}
+    .sec_res dd{float:none;width:100%;}
+    .sec_skill li{float:none;width:100%;}
+    .sec_work li{width:50%;}
+}
+
+@media screen and (max-width:576px){
+    .content h1{font-size:28px;line-height:1.2;}
+    .content p{font-size:15px;line-height:1.8;}
+}
